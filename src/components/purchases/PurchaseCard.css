@@ -1,0 +1,34 @@
+.Purchase_Card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  width: 100vw;
+  height: 300px;
+}
+.container_img_purchase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+}
+.purchase__img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+}
+.purchase_text {
+  width: 70%;
+  padding: 20px 15px;
+  text-align: center;
+  overflow: hidden;
+}
+
+.purchase_name {
+  font-size: 1.5rem;
+}
